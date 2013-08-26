@@ -1,0 +1,8 @@
+LABEL PEARLIVE32
+MENU LABEL ^Pear Live - i386
+KERNEL er/plugins/pearlive/i386/vmlinuz
+INITRD er/plugins/pearlive/i386/initrd.gz
+APPEND vga=normal boot=casper netboot=nfs nfsroot=10.0.0.1:/tftpboot/er/shares/pearlive/i386/ ramdisk_size=200000 nolock ip=dhcp
+TEXT HELP
+                 Pear Live x32.
+ENDTEXT

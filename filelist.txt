@@ -1,0 +1,16 @@
+.:
+filelist.txt
+i386
+pearlive.menu
+pearlive.png
+x86_64
+
+./i386:
+initrd.gz
+pearlivemain.menu
+vmlinuz
+
+./x86_64:
+initrd.gz
+pearlivemain.menu
+vmlinuz
