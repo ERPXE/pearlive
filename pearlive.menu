@@ -1,9 +1,6 @@
 MENU BEGIN UBUNTULIVE
+MENU TITLE Pear Comice 4.0 Live
 MENU LABEL ^Pear Comice 4.0 Live
-# ------====> Include Menu Settings <====------
-MENU INCLUDE er/menuinc/header.module
-
-# ------====> Set Specific Page Settings <====------
 MENU BACKGROUND er/plugins/pearlive/pearlive.png
 
 MENU INCLUDE er/plugins/pearlive/i386/pearlivemain.menu
